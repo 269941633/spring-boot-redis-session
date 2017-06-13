@@ -4,7 +4,29 @@
   <artifactId>springboot-redis-session</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
+      <!-- 依赖仓库 设置从aliyun仓库下载-->
+	<repositories>
+		<repository>
+			<id>dev-nexus</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+	<!-- 插件依赖仓库 -->
+	<pluginRepositories>
+		<pluginRepository>
+			<id>dev-nexus</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+	
   <properties>
   <!-- 文件拷贝时的编码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
