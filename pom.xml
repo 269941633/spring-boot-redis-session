@@ -4,7 +4,7 @@
   <artifactId>springboot-redis-session</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-      <!-- 依赖仓库 设置从aliyun仓库下载-->
+      <!-- 依赖仓库 设置从aliyun仓库下载 aaa-->
 	<repositories>
 		<repository>
 			<id>alimaven</id>
