@@ -16,7 +16,8 @@ public class Application extends SpringBootServletInitializer implements Embedde
 
 	 @Override  
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {  
-        return application.sources(Application.class);  
+        //aaa
+		 return application.sources(Application.class);
     }  
 
 	 
